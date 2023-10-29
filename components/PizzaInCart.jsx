@@ -25,7 +25,7 @@ export default function PizzaInCart({pizza}){
         <div className="container text-center">
             <div className="body flex justify-between items-center text-center mb-4">
                 <div className="image w-24 flex-1 text-xs flex justify-center rounded-md overflow-hidden ">
-                    <Image className='flex justify-center' src={image} height={90} width={65} alt='pizza' />
+                    <img className='flex justify-center' src={image} height={90} width={65} alt='pizza' />
                 </div>
                 <p className='flex-1 text-xs'>{title}</p>
                 <p className='flex-1 text-xs hidden md:flex justify-center'>UHA {price}</p>
