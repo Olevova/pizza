@@ -28,7 +28,7 @@ export default function AnimatePizza() {
                     <img src="./pngegg.png" width={30} height={30} alt="pizza" />
                 </motion.div>
             ) : (
-                <Image src="./pngegg.png" width={30} height={30} alt="pizza" />
+                <img src="./pngegg.png" width={30} height={30} alt="pizza" />
             )}
         </motion.div>
     );
