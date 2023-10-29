@@ -7,6 +7,7 @@ const nextConfig = {
     images: {
         domains: ['panda-pizza.com.ua'],
     },
+    output: 'export',
 };
 
 
