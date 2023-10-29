@@ -26,7 +26,7 @@ export default function PizzaCard({ pizza }) {
         <>
             <div className="max-w-sm rounded-md overflow-hidden shadow-red-500 shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-1 hover:scale-103 flex flex-col">
                 <div style={{ position: 'relative' }}>
-                    <Image src={image} width={100} height={100} alt="Product Image" className="w-full" />
+                    <img src={image} width={100} height={100} alt="Product Image" className="w-full" />
                     {isPizzaInCart ?(
                     <div className="px-4 py-4 bg-gray-400 text-white rounded bg-opacity-50" style={{ position: 'absolute', bottom: '0', left: '0', width: '100%' }}>
                         <div className="flex items-center justify-between">
