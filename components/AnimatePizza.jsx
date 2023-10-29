@@ -24,10 +24,10 @@ export default function AnimatePizza() {
                         repeatDelay: 0.2,
                     }}
                 >   <span> OLEVOVA PIZZA </span>
-                    <Image src="/pngegg.png" width={30} height={30} alt="pizza" />
+                    <Image src="./pngegg.png" width={30} height={30} alt="pizza" />
                 </motion.div>
             ) : (
-                <Image src="/pngegg.png" width={30} height={30} alt="pizza" />
+                <Image src="./pngegg.png" width={30} height={30} alt="pizza" />
             )}
         </motion.div>
     );
