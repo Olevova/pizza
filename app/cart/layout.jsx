@@ -15,7 +15,7 @@ export default function CartLayout({ children }) {
     //     );
     // };
     // const dispatch = useDispatch();
-    const cleanCart = () => dispatch(removeAllPizzasFromCart());
+    // const cleanCart = () => dispatch(removeAllPizzasFromCart());
 
     return (
         // <Provider store={store} >
