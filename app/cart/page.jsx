@@ -5,6 +5,7 @@ import {useSelector} from "react-redux";
 export default function Page (){
 
     const cartItem = useSelector((state) => state.cart);
+    console.log(cartItem, "cart")
 
     return(
         <div>
